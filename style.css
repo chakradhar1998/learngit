@@ -1,7 +1,30 @@
-header {
-	background-color: green;
+html {
+	height: 100%;
+}
+
+body {
+	background: url(./assets/background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+	color: #C6CB00;
+}
+
+h1 {
+	border: 5px dotted;
+	text-align: center;
+	margin-left: 6em ;
+	margin-right: 6em;
+	color: #C3CB00;
+	cursor: pointer;
 }
 
 p {
-	color: red;
+	color: #26B300;
 }
