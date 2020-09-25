@@ -16,15 +16,25 @@ li {
 	color: #C6CB00;
 }
 
-h1 {
+h1 , p {
 	border: 5px dotted;
 	text-align: center;
-	margin-left: 6em ;
-	margin-right: 6em;
 	color: #C3CB00;
 	cursor: pointer;
 }
 
 p {
 	color: #26B300;
+}
+
+.para {
+	border-color: pink;
+}
+
+#blue {
+	background: rgba(37, 173, 3,0.2);
+}
+
+#red {
+	background: rgba(198, 0, 23,0.2);
 }
