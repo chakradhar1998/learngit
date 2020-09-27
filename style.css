@@ -3,7 +3,8 @@ html {
 }
 
 body {
-	background: url(./assets/background.jpg);
+	/*background: url(./assets/background.jpg);*/
+	background-color: #192aaa;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -13,28 +14,12 @@ body {
 li {
 	list-style: none;
 	display: inline-block;
-	color: #C6CB00;
+	color: #e2d252;
 }
 
 h1 , p {
 	border: 5px dotted;
 	text-align: center;
-	color: #C3CB00;
+	color: #e2d252;
 	cursor: pointer;
-}
-
-p {
-	color: #26B300;
-}
-
-.para {
-	border-color: pink;
-}
-
-#blue {
-	background: rgba(37, 173, 3,0.2);
-}
-
-#red {
-	background: rgba(198, 0, 23,0.2);
 }
