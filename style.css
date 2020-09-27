@@ -1,28 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Prata');
 html {
 	height: 100%;
 }
 
 body {
-	/*background: url(./assets/background.jpg);*/
 	background-color: #916553;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
 	height: 100%;
+	margin: 0;
 }
 
-li {
-	list-style: none;
-	display: inline-block;
-	color: #e2d252;
-}
-
-li a {
-	color: #e3d352;
-}
-
-h1 , p {
+h1 {
 	text-align: center;
 	color: #e2d252;
 	cursor: pointer;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.number {
+	font-size: 4em;
+	font-family: 'Prata';
+	height: 3em;
+	width: 3em;
+	background-color: blue;
+	border: 5px dotted;
+	border-color: pink;
+	text-align: center;
 }
